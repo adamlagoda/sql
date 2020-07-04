@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS new_books (title VARCHAR(128), publish_date DATE, author VARCHAR(128), ISBN CHAR(17), category VARCHAR(256), pages SMALLINT, publisher VARCHAR(128), netto_price DECIMAL(5,2), vat_rate TINYINT, reserved TINYINT(1));
+INSERT INTO new_books VALUES ('Java. Efektywne programowanie. Wydanie III', '2018-08-17', 'Joshua Bloch', '978-83-283-4576-8','Programowanie, Java', 408, 'Helion',39.50,5,0);
+INSERT INTO new_books VALUES ('Docker. Praktyczne zastosowania. Wydanie II', '2019-08-27', 'Sean P.Kane,Karl Matthias', '978-83-283-5604-7','Programowanie, Docker', 312, 'Helion',38.35,5,0);
+INSERT INTO new_books VALUES ('Praktyczny kurs SQL. Wydanie III', '2015-03-26', 'Danuta Mendrala, Marcin Szeliga', '978-83-246-9495-2','SQL', 336, 'Helion',31.85,5,0);
+INSERT INTO new_books VALUES ('Czysty kod. Podręcznik dobrego programisty', '2010-02-19', 'Robert C. Martin', '978-83-283-0234-1',, 424, 'Helion',44.85,5,0);
